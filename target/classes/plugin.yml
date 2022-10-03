@@ -1,0 +1,15 @@
+name: HPSquaredForge
+version: '1.0-SNAPSHOT'
+main: hpsquaredforge.HPSquaredForge
+api-version: 1.19
+authors: [ Siliwolf ]
+commands:
+  create_forge_recipe:
+    usage: /create_forge_recipe <COOLDOWN IN TICKS> <CATEGORY>
+    permission: op
+  remove_item:
+    usage: /remove_item
+    permission: op
+  internal_remove_item:
+    usage: /internal_remove_item
+    permission: op
